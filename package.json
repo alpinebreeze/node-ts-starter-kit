@@ -17,7 +17,7 @@
     "url": "git+https://github.com/alpinebreeze/node-ts-starter-kit.git"
   },
   "author": "Richard Adams",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/alpinebreeze/node-ts-starter-kit/issues"
   },
