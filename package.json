@@ -1,0 +1,33 @@
+{
+  "name": "node-ts-starter-kit",
+  "version": "1.0.0",
+  "description": "A boilerplate project to help you get started with node.js and typescript",
+  "main": "out/index.js",
+  "scripts": {
+    "clean": "rimraf out",
+    "lint": "tslint src/**/*.ts",
+    "build": "tsc -p .",
+    "watch": "npm run build -- --watch",
+    "pretest": "npm run build",
+    "test": "jest",
+    "start": "node out/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpinebreeze/node-ts-starter-kit.git"
+  },
+  "author": "Richard Adams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alpinebreeze/node-ts-starter-kit/issues"
+  },
+  "homepage": "https://github.com/alpinebreeze/node-ts-starter-kit#readme",
+  "devDependencies": {
+    "@types/jest": "20.0.8",
+    "@types/node": "6.0.88",
+    "jest": "20.0.4",
+    "rimraf": "2.6.1",
+    "tslint": "5.6.0",
+    "typescript": "2.4.2"
+  }
+}
