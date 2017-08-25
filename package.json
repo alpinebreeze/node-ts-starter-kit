@@ -4,12 +4,12 @@
   "description": "A boilerplate project to help you get started with node.js and typescript",
   "main": "out/index.js",
   "scripts": {
-    "clean": "rimraf out",
+    "clean": "rimraf out coverage",
     "lint": "tslint src/**/*.ts",
     "build": "tsc -p .",
     "watch": "npm run build -- --watch",
     "pretest": "npm run build",
-    "test": "jest",
+    "test": "jest --coverage",
     "start": "node out/index.js"
   },
   "repository": {
