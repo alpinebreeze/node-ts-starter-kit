@@ -9,7 +9,7 @@
     "build": "tsc -p .",
     "watch": "npm run build -- --watch",
     "pretest": "npm run build",
-    "test": "jest --coverage",
+    "test": "npm run lint && jest --coverage",
     "start": "node out/index.js"
   },
   "repository": {
