@@ -18,6 +18,9 @@
             "request": "launch",
             "name": "Debug Tests",
             "program": "${workspaceRoot}/node_modules/jest/bin/jest.js",
+            "args": [
+                "-i"
+            ],
             "outFiles": [
                 "${workspaceRoot}/out/**/*.js"
             ],
