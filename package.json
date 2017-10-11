@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/alpinebreeze/node-ts-starter-kit#readme",
   "devDependencies": {
-    "@types/jest": "21.1.1",
-    "@types/node": "6.0.88",
+    "@types/jest": "21.1.2",
+    "@types/node": "6.0.89",
     "jest": "21.2.1",
     "rimraf": "2.6.2",
     "tslint": "5.7.0",
