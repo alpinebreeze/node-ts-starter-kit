@@ -7,9 +7,9 @@
     "clean": "rimraf out coverage",
     "lint": "tslint src/**/*.ts",
     "build": "tsc -p .",
-    "watch": "yarn run build --watch",
-    "pretest": "yarn run build",
-    "test": "yarn run lint && jest --coverage",
+    "watch": "npm run build --watch",
+    "pretest": "npm run build",
+    "test": "npm run lint && jest --coverage",
     "start": "node out/index.js"
   },
   "repository": {
@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/alpinebreeze/node-ts-starter-kit#readme",
   "devDependencies": {
-    "@types/jest": "22.1.1",
-    "@types/node": "8.5.10",
-    "jest": "22.1.4",
+    "@types/jest": "22.1.2",
+    "@types/node": "8.9.4",
+    "jest": "22.3.0",
     "rimraf": "2.6.2",
     "tslint": "5.9.1",
     "typescript": "2.7.1"
